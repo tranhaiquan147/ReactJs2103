@@ -1,0 +1,21 @@
+echo "# ReactJsT3H" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tranhaiquan147/ReactJsT3H.git
+git push -u origin main
+//// cách thêm nhanh
+git init
+git add .
+git commit -m "Tên-file"
+git push
+///cách xóa 1 file
+-xóa file trên vscode
+git add .
+git commit -m "delete"
+git push
+//cách lấy code
+trỏ cmd đến file cần lấy code
+git clone "link" ví dụ (https://github.com/boybeo68/ReactJS2103.git)
+git pull (cập nhật code mới nhất)

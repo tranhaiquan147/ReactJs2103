@@ -1,0 +1,310 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Zen Dots', cursive,'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.announce{
+    background-color:rgb(183, 123, 226);
+    padding: 10px;
+}
+.announce .title{
+   margin: 10px 300px;
+   font-size: 17px;
+   font-weight: bold;
+}
+.announce .off{
+   float: right;
+}
+
+.announce .title a{
+    color: blue;
+}
+.announce .title a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+.row1 img{
+    width: 200px;
+    height: 35px;
+    margin: 30px 20px;
+}
+.row1 .mainMenu{
+    display: flex;
+    list-style: none;    
+}
+.row1 i{
+    font-size: 10px;
+    margin-right: 40px;
+}
+.row1 .mainMenu > li{
+    padding:10px;
+    position: relative;
+
+}
+.row1 .mainMenu > li:last-child{
+    background-color: black;
+    border-radius: 10px;
+}
+.row1 .mainMenu > li:last-child a{
+    color: white;
+}
+.row1 ul.invisible{
+    display: none;
+    position: absolute;
+    border: 2px solid;
+}
+.row1 ul.mainMenu li:hover ul.invisible{
+    display: block;
+    top: 50px;
+    left: 0px;
+    padding:20px;
+}
+.row2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Orelega One', cursive;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.row2 .title{
+    font-weight: bold;
+    font-size: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row2 button{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.row2 .method{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.row2 .method a{
+    display: flex;
+    align-items: center;
+}
+.row2 button span{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.row3{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row3 video{
+    width: 1200px;
+    height: 650px;
+}
+.row4{
+   display: flex;
+   justify-content: space-evenly;
+}
+.row5{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.row5 button,.row6 button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid;
+}
+.row5 button:hover,.row6 button:hover{
+    transform: translate(0px,-5px);
+}
+.row5 button span,.row6 button span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.row6{
+    height: 120vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px;
+}
+.row6 .pos1{
+    flex-basis: 400px;
+    font-size: 22px;
+}
+.row6 .pos2 .pic1{
+    width: 400px;
+    height: 400px;
+}
+.row6 .pos2 .pic2{
+    width: 400px;
+    height: 100px;
+}
+.row6 .pos2 .pic3{
+    width: 400px;
+    height: 200px;
+}
+.row6 .pos2{
+    height: 120vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.row6 .pos3 img{
+    width: 400px;
+    height: 600px;
+}
+.row7{
+    background-color: black;
+    padding: 40px;
+}
+.row7 .pos{
+    width: 60%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.row7 .pos1{
+    width: 150px;
+    height: 250px;
+    border-radius: 50px;
+    background-image: url('./newYork.jpg');
+    background-size: 150px 250px;
+    border: 2px solid white;
+}
+.row7 .pos1-1{
+    width: 150px;
+    height: 250px;
+    border-radius: 50px;
+    background-image: url('./newYork.jpg');
+    background-size: 150px 250px;
+}
+.row7 .pos2{
+    width: 500px;
+    color: white;
+}
+.copy{
+    background-color: #ffc700;
+}
+.copy button{
+    background-color: #ffc700;
+    border: 3px solid black;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.copy button a{
+    font-weight: bold;
+    font-family: 'Zen Dots', cursive,'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.copy button:hover{
+    transform: translate(0px,-10px);
+}
+.row8{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.row8 .Try4Free{
+    font-size: 40px;
+    font-weight: bold;
+}
+.row8 .logo{
+    width: 20%;
+    border: 3px solid;
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 10px 25px;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.row8 .logo:hover{
+    transform: translate(0px,-15px);
+}
+.row8 .or{
+    margin-top: 20px;
+    color: rgba(116, 115, 115,0.7);
+    font-size: 20px;
+    font-weight: bold;
+}
+.row8 input[type='text']{
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    font-size: 17px;
+    padding-left:10px;
+}
+.row8 .confirm{
+    margin-top: 20px;
+    background-color: black;
+    padding: 10px 55px;
+    border-radius: 10px;
+    transition: all 0.6s;
+}
+.row8 .confirm:hover{
+   transform: translate(0px,-10px);
+}
+.row8 .confirm a{
+   color: white;
+   font-size: 22px;
+   font-weight: bold;
+}
+.row8 .sercuse{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 10px;
+    height: 80px;
+    justify-content: space-evenly;
+}
+.row8 .sercuse a{
+  color: rgb(38, 38, 236);
+}
+.row8 .sercuse a:hover{
+    text-decoration: none;
+}
+.row9{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row9 .listStyle{
+  width: 200px;
+  font-size: 20px;
+  line-height: 40px;
+}
+.row9 .listStyle li:first-child{
+    font-weight: bold;
+}
+.row9 .emphersize li:first-child{
+    font-size: 30px;
+}
+.row9 .listStyle i{
+    margin-right: 5px;
+  }
