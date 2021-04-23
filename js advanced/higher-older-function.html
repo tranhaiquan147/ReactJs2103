@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    function waitAndRun(callback,ms){
+        setTimeout(callback,ms);
+    }
+    function run(){
+        console.log("ta da,here i am!");
+    }
+    waitAndRun(run,5000);
+    // nếu để là run() thì thằng run sẽ chạy luôn mà k dùng settimeout
+</script>
+</html>
